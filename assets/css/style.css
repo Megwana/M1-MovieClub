@@ -1,20 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Montserrat+Alternates:wght@300;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 #logo {
     float: left;
 }
 
 #resize {
     height: auto;
-    width: 100px;
+    width: 200px;
+}
+#menu {
+    font-size: 150%;
+    letter-spacing: 6px;
+    color: #fff;
+    font-weight: 2rem;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#btn {
+    border-bottom: none;
+    background-color: #FF4C4C;
+    height: 50px;
+    width: 70px;
+    border-radius: 30px;
+}
 #intro-image {
     height: 1200px;
     width: 100%;
-    background: url('../images/bbu-background-black.png');
+    background: url('../images/bbu-background-black.png') no-repeat center center;
 }
